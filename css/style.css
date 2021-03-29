@@ -1,0 +1,369 @@
+body{
+	margin: 0 auto;
+	padding:0;
+	font-size: 22px;
+	color: #6e6757;
+	width: 1300px;
+}
+img{
+	max-width: 99%;
+	display: block;
+	/* max-height: 67.76px; */
+	/* overflow: hidden; */
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.header-section{
+    background: #f9f4de;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.logo img{
+    width: 110px;
+}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #6e6757;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+}
+nav ul li a:hover{
+ 	    background: #6e6757;
+    color: #90b742;
+}
+
+.banner-section{
+    background: url(../images/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 70%;
+    background-attachment: fixed;
+}
+.banner-content{
+    text-align: center;
+    padding: 100px 0;
+}
+.banner-content h1{
+    color: #e0dada;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 3px 3px 8px #6e6757;
+}
+.banner-content p{
+    font-size: 30px;
+    color: #6e6757;
+    text-transform: capitalize;
+    margin: 17px 0;
+}
+.banner-content a{
+    text-transform: uppercase;
+    background: #90b742;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 11px 11px;
+    display: inline-block;
+    border-radius: 9px;
+}
+.banner-content a:hover{}
+
+.service-section{}
+.heading{
+    margin: 0;
+    text-align: center;
+    padding-top: 27px;
+}
+.heading h1{
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.heading p{
+    margin: 3px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.services{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 22px 25px;
+    box-sizing: border-box;
+}
+.services i{
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+.services h2{
+    margin: 0;
+    margin-top: 7px;
+    font-size: 34px;
+}
+.services p{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.relax{
+    background: #dddcd9;
+    overflow: hidden;
+}
+.relaxpart{
+    width: 80%;
+    filter: brightness(0.9);
+    float: right;
+    background-image: url(../images/just.jpg);
+    opacity: 23;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: 100% 70%;
+    background-attachment: fixed;
+}
+.relaxcontent{
+    padding: 75px;
+}
+.relaxcontent h1{
+    margin: 0;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+.relaxcontent h1 span{
+    color: #82a53b;
+}
+.relaxcontent p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 22px;
+}
+
+.relaxcontent ul{
+    margin: 0;
+    padding: 0;
+}
+.relaxcontent ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.relaxcontent ul li i{}
+.relaxcontent a{
+    text-transform: uppercase;
+    text-align: center;
+    background: #90b742;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 11px 11px;
+    margin: 22px;
+    display: inline-block;
+    border-radius: 9px;
+}
+
+.client{}
+.client-image{
+    width: 20%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.client-image img{
+    border-radius: 15%;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.client-feedback{
+    width: 80%;
+    float: left;
+    padding: 31px;
+    box-sizing: border-box;
+    background: #f9f4de;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.client-feedback.feedback{}
+.client-feedback.feedback p{}
+.client-feedback.feedback em{}
+
+
+.nextproject{
+}
+.project{
+	    text-align: center;
+    background: #82a53b;
+}
+.project h1{
+	margin: 0;
+	margin-top: 25px;
+	text-transform: uppercase;
+	font-size: 31px;
+	padding: 20px;
+	color: #f9f4de;
+}
+.project a{
+    text-transform: uppercase;
+    background: #6e6757;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 11px 11px;
+    margin-bottom: 50px;
+    display: inline-block;
+    border-radius: 9px;
+}
+
+
+.start{background: black;color: #fff;/* overflow: hidden; */}
+.contactus{
+    width: 33.33%;
+    float: left;
+    text-align: -webkit-auto;
+    padding: 22px 25px;
+    box-sizing: border-box;
+}
+.contactus h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0 0;
+}
+.contactus ul{
+}
+.contactus ul li{
+    list-style: none;
+}
+.contactus ul li i{}
+.latestpost{
+    width: 33.33%;
+    float: left;
+    text-align: -webkit-auto;
+    padding: 22px 25px;
+    box-sizing: border-box;
+}
+.latestpost h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0 0;
+}
+.latestpost ul{
+    list-style: none;
+}
+.latestpost ul li{}
+.latestpost ul li i{}
+.latesttweets{
+    width: 33.33%;
+    float: left;
+    text-align: -webkit-auto;
+    padding: 22px 25px;
+    box-sizing: border-box;
+}
+.latesttweets h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0 0;
+}
+.latesttweets ul{
+    list-style: none;
+}
+.latesttweets ul li{}
+.latesttweets ul li i{}
+.latesttweets ul li p{
+	   margin: 0;
+    padding: 8.5px 0;
+}
+
+
+.footer{}
+.footer .copyright{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.footer .copyright p{
+    margin: 8;
+    padding: 0;
+}
+.footer .icon{
+    width: 50%;
+    float: left;
+}
+.footer .icon ul{padding: 8px;margin: 0;}
+.footer .icon ul li{
+    float: left;
+    list-style: none;
+    padding: 0 14px;
+}
+.footer .icon ul li i{
+    font-size: 36px;
+}
+
+.platform{
+    overflow: hidden;
+}
+.platform .full{
+    width: 50%;
+    margin: 0 auto;
+}
+.platform .full .envato{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.platform .full .envato img{}
+.platform .full .wordpress{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.platform .full .wordpress img{}
+.platform .full .aetuts{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.platform .full .aetuts img{}
+.platform .full .microlancer{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.platform .full .microlancer img{}
